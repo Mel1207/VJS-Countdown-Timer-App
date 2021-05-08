@@ -28,10 +28,8 @@ const countdown = () => {
 setInterval(countdown, 1000);
 // countdown();
 
-
-
 checkbox.addEventListener('click', () => {
     // change theme color 
     const body = document.querySelector('body');
     body.classList.toggle('darken');
-})
+});

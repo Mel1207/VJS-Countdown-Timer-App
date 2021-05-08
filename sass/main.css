@@ -66,6 +66,7 @@ nav a img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 27rem;
 }
 .date-container .date {
   text-align: center;
@@ -77,6 +78,7 @@ h1 {
 
 h2 {
   font-weight: 500;
+  margin-bottom: 13%;
 }
 
 .checkbox {
@@ -118,8 +120,8 @@ h2 {
   align-items: center;
 }
 .tech-set-list li .skill-icon {
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
 }
 
 /*# sourceMappingURL=main.css.map */
