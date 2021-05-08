@@ -66,19 +66,10 @@ nav a img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 27rem;
+  max-width: 35rem;
 }
 .date-container .date {
   text-align: center;
-}
-
-h1 {
-  color: #23D8D8;
-}
-
-h2 {
-  font-weight: 500;
-  margin-bottom: 13%;
 }
 
 .checkbox {
@@ -122,6 +113,23 @@ h2 {
 .tech-set-list li .skill-icon {
   height: 60px;
   width: 60px;
+}
+
+h1 {
+  color: #23D8D8;
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: 500;
+  margin-bottom: 13%;
+  font-size: 2rem;
+  color: #424242;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #424242;
 }
 
 /*# sourceMappingURL=main.css.map */
