@@ -1,4 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  p {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .skill-icon {
+    height: 45px !important;
+    width: 45px !important;
+  }
+}
+@media screen and (max-width: 760px) {
+  .body-banner {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    width: 100% !important;
+  }
+
+  .label {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1rem !important;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -113,23 +155,27 @@ nav a img {
 .tech-set-list li .skill-icon {
   height: 60px;
   width: 60px;
+  transition: 0.3s;
 }
 
 h1 {
   color: #23D8D8;
   font-size: 3rem;
+  transition: 0.3s;
 }
 
 h2 {
   font-weight: 500;
-  margin-bottom: 13%;
+  margin-bottom: 5rem;
   font-size: 2rem;
   color: #424242;
+  transition: 0.3s;
 }
 
 p {
   font-size: 1.5rem;
   color: #424242;
+  transition: 0.3s;
 }
 
 /*# sourceMappingURL=main.css.map */
