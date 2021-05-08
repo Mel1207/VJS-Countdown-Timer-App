@@ -111,4 +111,15 @@ h2 {
   cursor: pointer;
 }
 
+.tech-set-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tech-set-list li .skill-icon {
+  height: 70px;
+  width: 70px;
+}
+
 /*# sourceMappingURL=main.css.map */
