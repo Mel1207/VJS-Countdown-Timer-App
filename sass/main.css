@@ -26,12 +26,12 @@ body .label {
 
 body.darken {
   background: #284047;
+  color: #fff;
 }
 
 nav {
   height: auto;
   width: 100%;
-  background: red;
   padding: 10px 0;
 }
 nav a {
@@ -53,9 +53,30 @@ nav a img {
   width: 50%;
 }
 
+.right img {
+  width: 100%;
+}
+
 .container {
   max-width: 80%;
   margin: auto;
+}
+
+.date-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.date-container .date {
+  text-align: center;
+}
+
+h1 {
+  color: #23D8D8;
+}
+
+h2 {
+  font-weight: 500;
 }
 
 .checkbox {
