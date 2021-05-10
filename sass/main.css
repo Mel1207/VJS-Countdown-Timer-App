@@ -68,6 +68,8 @@ body .label {
 
 body.darken {
   background: #284047;
+}
+body.darken h2, body.darken .date-container p {
   color: #fff;
 }
 
