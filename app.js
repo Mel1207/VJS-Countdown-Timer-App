@@ -1,6 +1,6 @@
 const checkbox = document.querySelector('#checkbox');
 const countdown = () => {
-    const countDate = new Date('March 1, 2022 00:00:00').getTime()
+    const countDate = new Date('January 20, 2022 00:00:00').getTime()
     const dateNow = new Date().getTime();
     const gap = countDate - dateNow;
 
