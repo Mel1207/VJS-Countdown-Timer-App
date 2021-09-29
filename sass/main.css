@@ -104,6 +104,8 @@ nav a img {
 .container {
   max-width: 80%;
   margin: auto;
+  height: 100%;
+  display: flex;
 }
 
 .date-container {
